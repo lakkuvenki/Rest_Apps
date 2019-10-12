@@ -1,0 +1,3 @@
+127.0.0.1 - - [02/Nov/2017:07:56:53 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [02/Nov/2017:07:58:28 +0530] "POST /CustomerServiceCrud/rest/customer HTTP/1.1" 201 -
+127.0.0.1 - - [02/Nov/2017:07:59:59 +0530] "POST /CustomerServiceCrud/rest/customer HTTP/1.1" 201 -

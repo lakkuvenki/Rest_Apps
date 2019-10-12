@@ -1,0 +1,19 @@
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+
+
+public class FinalTest {
+	public int result;
+	public static int result1;
+	
+	static class results {
+		results() {
+			System.out.println(result + result1);
+		}
+	}
+
+	public  void a() {
+		new BufferedWriter(new PrintWriter(new FileWriter("")));
+	}
+}

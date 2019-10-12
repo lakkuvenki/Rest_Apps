@@ -1,0 +1,67 @@
+// IMPORT LIBRARY PACKAGES NEEDED BY YOUR PROGRAM
+// SOME CLASSES WITHIN A PACKAGE MAY BE RESTRICTED
+// DEFINE ANY CLASS AND METHOD NEEDED
+// TNode CLASS IS DEFINED BY DEFAULT
+// CLASS BEGINS, THIS CLASS IS REQUIRED
+import java.util.ArrayList;
+public class BstMinSum
+{
+    private static int maxSum = Integer.MAX_VALUE;
+    private static ArrayList<Integer> finalList = new ArrayList<>();
+  // METHOD SIGNATURE BEGINS, THIS METHOD IS REQUIRED
+  public static int minTreePath(TNode t)
+  {
+        t = new TNode(8);
+        t.left = new TNode(4);
+        t.left.left = new TNode(3);
+        t.left.right = new TNode(1);
+        t.right = new TNode(5);
+        t.right.right = new TNode(11);
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        path(t, list,0);
+        System.out.println("Cheapest list is - " + finalList.toString() +  " and minimum sum is " + maxSum);
+        return maxSum;
+    
+  }
+  // METHOD SIGNATURE ENDS
+  private static void path(TNode root, ArrayList<Integer> list,int s) {
+
+        if(root==null) {
+            return;
+        } else {
+            list.add(root.info);
+            s = s+root.info;
+        }
+
+        if ((root.left == null && root.right == null)) {
+            System.out.println(list);
+            if(maxSum>s) {
+                maxSum = s;
+                finalList = new ArrayList<Integer>(list);
+            }
+            return;
+        }
+
+        path(root.left, new ArrayList<Integer>(list),s);
+        path(root.right, new ArrayList<Integer>(list),s);
+
+    }
+
+}
+class TNode {
+
+    public int info;
+    public TNode left;
+    public TNode right;
+
+    public TNode(int info) {
+        this(info, null, null);
+    }
+
+    public TNode(int info, TNode left, TNode right) {
+        this.info = info;
+        this.left = left;
+        this.right = right;
+    }
+
+}

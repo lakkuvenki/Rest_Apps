@@ -1,0 +1,17 @@
+1536513430602	Copy compilation unit
+1536514065927	Copy compilation unit
+1536515273225	Rename type 'DefaultProductRateHandler'
+1536515287623	Rename type 'DefaultProductRatesMain'
+1536515298173	Rename type 'DefaultProductRates'
+1536515306698	Rename type 'DefaultProductRate'
+1536515333584	Rename field 'defaultProductRateLst'
+1536515345390	Rename field 'defaultProductRate'
+1536515385990	Rename field 'defaultProductReatesXML'
+1536515466198	Rename field 'defaultProductRatesLst'
+1536515511985	Rename local variable 'defaultProductRates'
+1536515593979	Rename resource 'defaultProductRates.xml'
+1536515627509	Rename local variable 'defaultProductRate'
+1536516237656	Delete elements
+1536516249117	Delete elements
+1536516275347	Delete element
+1536516281257	Delete elements

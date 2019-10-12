@@ -1,0 +1,15 @@
+
+public class FinalTest {
+	public int result;
+	public static int result1;
+	
+	static class results {
+		results() {
+			System.out.println(result + result1);
+		}
+	}
+
+	public  void a() {
+		
+	}
+}

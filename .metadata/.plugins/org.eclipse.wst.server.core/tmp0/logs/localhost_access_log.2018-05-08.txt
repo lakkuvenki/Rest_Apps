@@ -1,0 +1,8 @@
+127.0.0.1 - - [08/May/2018:08:10:40 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/May/2018:08:10:42 +0530] "GET /CustomerServiceCrud/WEB-INF/classes/com/jersey/crud/app/CustomerResource.java HTTP/1.1" 404 949
+127.0.0.1 - - [08/May/2018:08:11:15 +0530] "POST /RestDataflowsApp/rest/dataflow/createDf HTTP/1.1" 201 64
+0:0:0:0:0:0:0:1 - - [08/May/2018:08:12:23 +0530] "GET /RestDataflowsApp/rest/dataflow/createDf HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [08/May/2018:08:12:23 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [08/May/2018:08:12:45 +0530] "GET /RestDataflowsApp/rest/dataflow/ HTTP/1.1" 405 -
+127.0.0.1 - - [08/May/2018:19:02:35 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [08/May/2018:19:03:29 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 60

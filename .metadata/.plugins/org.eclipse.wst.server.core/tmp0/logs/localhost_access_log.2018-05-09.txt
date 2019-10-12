@@ -1,0 +1,7 @@
+127.0.0.1 - - [09/May/2018:07:54:48 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [09/May/2018:07:55:14 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 60
+127.0.0.1 - - [09/May/2018:07:56:05 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 60
+127.0.0.1 - - [09/May/2018:07:56:42 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 60
+127.0.0.1 - - [09/May/2018:07:58:04 +0530] "DELETE /CustomerServiceCrud/rest/customer/delete/1525832765894 HTTP/1.1" 200 59
+127.0.0.1 - - [09/May/2018:07:58:51 +0530] "PUT /CustomerServiceCrud/rest/customer/put/1520687824302 HTTP/1.1" 200 59
+127.0.0.1 - - [09/May/2018:07:59:24 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 60

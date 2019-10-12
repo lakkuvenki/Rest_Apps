@@ -1,0 +1,5 @@
+127.0.0.1 - - [28/Apr/2018:13:34:12 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [28/Apr/2018:13:34:51 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1520687927060 HTTP/1.1" 500 58
+127.0.0.1 - - [28/Apr/2018:13:37:34 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [28/Apr/2018:13:37:56 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1520687927060 HTTP/1.1" 200 109
+127.0.0.1 - - [28/Apr/2018:14:20:11 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1520687927060 HTTP/1.1" 200 109

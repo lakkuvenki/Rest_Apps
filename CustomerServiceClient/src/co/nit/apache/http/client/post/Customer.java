@@ -1,0 +1,60 @@
+package co.nit.apache.http.client.post;
+
+import java.io.Serializable;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class Customer implements Serializable {
+
+	private static final long serialVersionUID = -1056836302560403168L;
+
+	private String customerId;
+	private String firstName;
+	private String lastName;
+	private String zipcode;
+
+	public String getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(String customerId) {
+		this.customerId = customerId;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getZipcode() {
+		return zipcode;
+	}
+
+	public void setZipcode(String zipcode) {
+		this.zipcode = zipcode;
+	}
+
+	@Override
+	public String toString() {
+		return "Customer [customerId=" + customerId + ", firstName="
+				+ firstName + ", lastName=" + lastName + ", zipcode=" + zipcode
+				+ "]";
+	}
+
+}

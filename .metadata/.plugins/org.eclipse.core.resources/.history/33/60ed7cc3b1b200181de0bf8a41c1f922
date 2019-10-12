@@ -1,0 +1,43 @@
+package co.nit.apache.http.client.post;
+
+import org.apache.http.Header;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.util.EntityUtils;
+
+import com.google.gson.Gson;
+
+public class GetCustomerRequest {
+
+	private static String GET_URI = "http://localhost:8680/CustomerServiceCrud/rest/customer/get";
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+		HttpClient getClient = new DefaultHttpClient();
+		try {
+			HttpGet getRequest = new HttpGet(GET_URI +"?id=1536331973038");
+			getRequest.addHeader("X-My-API-Key-Token", "012345678901234567890123456789");
+			
+			HttpResponse response = getClient.execute(getRequest);//it is going to communicate server
+			System.out.println("@@ Object name @ " + response);
+			System.out.println(response.getStatusLine()); 
+			System.out.println(response.getEntity());
+			String resEntity = EntityUtils.toString(response.getEntity());//response body from the server 
+			
+			Header[] resHeaders = response.getAllHeaders();
+			for(Header header : resHeaders) {
+				System.out.println(header.getName() + ":" + header.getValue());
+			}
+			Gson gson = new Gson();
+			Customer  customer = gson.fromJson(resEntity, Customer.class);
+			System.out.println(resEntity);
+			System.out.println(customer);
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			getClient.getConnectionManager().shutdown();
+		}
+	}
+
+}

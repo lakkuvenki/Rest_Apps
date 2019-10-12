@@ -1,0 +1,15 @@
+import java.util.HashSet;
+
+public class User {
+
+	public int hashcode() {
+		return 1;
+	}
+
+	public static void main(String[] args) {
+		HashSet<User> hs = new HashSet<User>();
+		hs.add(new User());
+		hs.add(new User());
+		System.out.println(hs.size());
+	}
+}

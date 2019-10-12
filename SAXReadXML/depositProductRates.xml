@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DepositProducts>
+	<DepositProduct>
+		<productId>1</productId>
+		<productName>ABC</productName>
+		<accountCategory>Simple</accountCategory>
+		<interestPlan>Term1</interestPlan>
+		<term>1</term>
+		<termId>123</termId>
+		<marketSegmentCode>134</marketSegmentCode>
+		<marketSegmentName>Fin</marketSegmentName>
+		<zipRangeLow>L</zipRangeLow>
+		<zipRangeHigh>H</zipRangeHigh>
+		<balanceLevel>BL1</balanceLevel>
+		<interestRate>IN1</interestRate>
+		<apy>APY1</apy>
+		<rateEffectiveDate>1995-05-12</rateEffectiveDate>
+	</DepositProduct>
+	<DepositProduct>
+		<productId>2</productId>
+		<productName>BCD</productName>
+		<accountCategory>Complex</accountCategory>
+		<interestPlan>Term2</interestPlan>
+		<term>2</term>
+		<termId>456</termId>
+		<marketSegmentCode>135</marketSegmentCode>
+		<marketSegmentName>Fin1</marketSegmentName>
+		<zipRangeLow>L</zipRangeLow>
+		<zipRangeHigh>H</zipRangeHigh>
+		<balanceLevel>BL2</balanceLevel>
+		<interestRate>IN2</interestRate>
+		<apy>APY2</apy>
+		<rateEffectiveDate>2018-09-10</rateEffectiveDate>
+	</DepositProduct>
+</DepositProducts>

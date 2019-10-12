@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Customer.java&apos; to &apos;CustomerServiceClient/src/co.nit.apache.http.client.post&apos;&#x0D;&#x0A;- Original project: &apos;CustomerServiceCrud&apos;&#x0D;&#x0A;- Destination element: &apos;CustomerServiceClient/src/co.nit.apache.http.client.post&apos;&#x0D;&#x0A;- Original element: &apos;com.jersey.crud.app.Customer.java&apos;" description="Copy compilation unit" destination="=CustomerServiceClient/src&lt;co.nit.apache.http.client.post" element1="/src&lt;com.jersey.crud.app{Customer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1520686264913" units="1" version="1.0"/>
+</session>

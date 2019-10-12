@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files (x86)\Java\jdk1.8.0_74" version="1.8.0_74">
+<bootpath>
+<entry path="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\resources.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\rt.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\jsse.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\jce.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\jfr.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files (x86)\Java\jdk1.8.0_74\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files (x86)\Java\jre1.8.0_74" version="1.8.0_74">
+<bootpath>
+<entry path="C:\Program Files (x86)\Java\jre1.8.0_74\lib\resources.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre1.8.0_74\lib\rt.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre1.8.0_74\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre1.8.0_74\lib\jsse.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre1.8.0_74\lib\jce.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre1.8.0_74\lib\charsets.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre1.8.0_74\lib\jfr.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre1.8.0_74\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files (x86)\Java\jre1.8.0_74\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files (x86)\Java\jre1.8.0_74\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files (x86)\Java\jdk1.7.0_11" version="1.7.0_11">
+<bootpath>
+<entry path="C:\Program Files (x86)\Java\jdk1.7.0_11\jre\lib\resources.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.7.0_11\jre\lib\rt.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.7.0_11\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.7.0_11\jre\lib\jsse.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.7.0_11\jre\lib\jce.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.7.0_11\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.7.0_11\jre\lib\jfr.jar"/>
+<entry path="C:\Program Files (x86)\Java\jdk1.7.0_11\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files (x86)\Java\jdk1.7.0_11\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files (x86)\Java\jdk1.7.0_11\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\eclipse-jee-indigo-SR2-win32\eclipse" version="1.7.0_25">
+<bootpath>
+<entry path="E:\lib\resources.jar"/>
+<entry path="E:\lib\rt.jar"/>
+<entry path="E:\lib\sunrsasign.jar"/>
+<entry path="E:\lib\jsse.jar"/>
+<entry path="E:\lib\jce.jar"/>
+<entry path="E:\lib\charsets.jar"/>
+<entry path="E:\lib\jfr.jar"/>
+<entry path="E:\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

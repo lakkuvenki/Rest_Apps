@@ -1,0 +1,13 @@
+127.0.0.1 - - [18/Sep/2018:23:34:24 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [18/Sep/2018:23:34:58 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1521683728565 HTTP/1.1" 500 75
+127.0.0.1 - - [18/Sep/2018:23:36:07 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1536333434703 HTTP/1.1" 200 95
+127.0.0.1 - - [18/Sep/2018:23:37:46 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1536333434703 HTTP/1.1" 200 95
+127.0.0.1 - - [18/Sep/2018:23:39:33 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1536333434703 HTTP/1.1" 200 95
+127.0.0.1 - - [18/Sep/2018:23:39:34 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1536333434703 HTTP/1.1" 200 95
+127.0.0.1 - - [18/Sep/2018:23:42:53 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 401 75
+127.0.0.1 - - [18/Sep/2018:23:44:59 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 60
+127.0.0.1 - - [18/Sep/2018:23:49:15 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 60
+127.0.0.1 - - [18/Sep/2018:23:50:25 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 60
+127.0.0.1 - - [18/Sep/2018:23:54:43 +0530] "PUT /CustomerServiceCrud/rest/customer/put/1537294825954 HTTP/1.1" 401 75
+127.0.0.1 - - [18/Sep/2018:23:55:21 +0530] "PUT /CustomerServiceCrud/rest/customer/put/1537294825954 HTTP/1.1" 200 59
+127.0.0.1 - - [18/Sep/2018:23:56:42 +0530] "PUT /CustomerServiceCrud/rest/customer/put/1537294825954 HTTP/1.1" 200 59

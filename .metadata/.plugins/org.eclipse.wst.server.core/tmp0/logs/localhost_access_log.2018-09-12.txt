@@ -1,0 +1,11 @@
+127.0.0.1 - - [12/Sep/2018:22:54:03 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1525416630192 HTTP/1.1" 200 99
+127.0.0.1 - - [12/Sep/2018:23:35:45 +0530] "GET /CustomerServiceCrud/rest/customer?id=1525416630192 HTTP/1.1" 405 -
+127.0.0.1 - - [12/Sep/2018:23:40:19 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1525416630192 HTTP/1.1" 200 99
+127.0.0.1 - - [12/Sep/2018:23:42:00 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1525416630192 HTTP/1.1" 200 99
+127.0.0.1 - - [12/Sep/2018:23:43:15 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1525416630192 HTTP/1.1" 200 99
+127.0.0.1 - - [12/Sep/2018:23:45:02 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1525416630192 HTTP/1.1" 200 99
+127.0.0.1 - - [12/Sep/2018:23:45:47 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1525416630192 HTTP/1.1" 200 99
+127.0.0.1 - - [12/Sep/2018:23:47:30 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1525416630192 HTTP/1.1" 200 99
+127.0.0.1 - - [12/Sep/2018:23:47:54 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1525416630192 HTTP/1.1" 200 99
+127.0.0.1 - - [12/Sep/2018:23:48:46 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1525416630192 HTTP/1.1" 200 99
+127.0.0.1 - - [12/Sep/2018:23:49:15 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1525416630192 HTTP/1.1" 200 99

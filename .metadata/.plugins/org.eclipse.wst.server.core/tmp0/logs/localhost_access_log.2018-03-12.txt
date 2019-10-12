@@ -1,0 +1,7 @@
+127.0.0.1 - - [12/Mar/2018:22:27:48 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [12/Mar/2018:22:30:43 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1520687927060 HTTP/1.1" 200 112
+127.0.0.1 - - [12/Mar/2018:22:32:01 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1520687927060 HTTP/1.1" 200 112
+127.0.0.1 - - [12/Mar/2018:22:37:55 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1520687927060 HTTP/1.1" 200 112
+127.0.0.1 - - [12/Mar/2018:22:39:32 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1520687927060 HTTP/1.1" 200 109
+127.0.0.1 - - [12/Mar/2018:22:39:42 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1520687927060 HTTP/1.1" 200 109
+127.0.0.1 - - [12/Mar/2018:22:39:55 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1520687927060 HTTP/1.1" 200 109

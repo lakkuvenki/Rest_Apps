@@ -1,0 +1,24 @@
+import java.util.HashSet;
+
+public class User {
+	private int age;
+	
+	public User(int age) {
+		this.age = age;
+	}
+
+	public boolean equals(Object obj) {
+		
+	}
+	
+	public int hashcode() {
+		return 1;
+	}
+
+	public static void main(String[] args) {
+		HashSet<User> hs = new HashSet<User>();
+		hs.add(new User(1));
+		hs.add(new User(1));
+		System.out.println(hs.size());
+	}
+}

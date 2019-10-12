@@ -1,0 +1,10 @@
+127.0.0.1 - - [05/Dec/2017:07:24:01 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [05/Dec/2017:07:25:44 +0530] "GET /CustomerService/rest/customer/get?id=1509589799862 HTTP/1.1" 404 1017
+0:0:0:0:0:0:0:1 - - [05/Dec/2017:07:25:44 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [05/Dec/2017:07:26:13 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1509589799862 HTTP/1.1" 200 95
+0:0:0:0:0:0:0:1 - - [05/Dec/2017:07:31:34 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1509589799862 HTTP/1.1" 200 95
+127.0.0.1 - - [05/Dec/2017:07:37:19 +0530] "POST /CustomerServiceCrud/rest/customer HTTP/1.1" 405 -
+127.0.0.1 - - [05/Dec/2017:07:39:01 +0530] "POST /CustomerServiceCrud/rest/customer HTTP/1.1" 405 -
+127.0.0.1 - - [05/Dec/2017:07:39:32 +0530] "POST /CustomerServiceCrud/rest/customer HTTP/1.1" 405 -
+127.0.0.1 - - [05/Dec/2017:07:40:35 +0530] "POST /CustomerServiceCrud/rest/customer HTTP/1.1" 405 -
+127.0.0.1 - - [05/Dec/2017:07:41:03 +0530] "POST /CustomerServiceCrud/rest/customer HTTP/1.1" 405 -

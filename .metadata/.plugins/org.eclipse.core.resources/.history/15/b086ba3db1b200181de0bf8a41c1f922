@@ -1,0 +1,54 @@
+package co.nit.apache.http.client.post;
+
+import java.io.StringWriter;
+
+import javax.xml.bind.JAXBContext;
+
+import org.apache.http.Header;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.ByteArrayEntity;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.util.EntityUtils;
+
+public class AddCustomerRequest {
+
+	private static String POST_URI = "http://localhost:8680/CustomerServiceCrud/rest/customer/post";
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+		HttpClient postClient = new DefaultHttpClient();
+		try {
+			HttpPost postRequest = new HttpPost(POST_URI);
+			postRequest.addHeader("X-My-API-Key-Token", "012345678901234567890123456789");
+			postRequest.addHeader("username", "lakku");
+			postRequest.addHeader("password", "lakku");
+			postRequest.addHeader("Content-Type","application/json");
+			Customer customer = new Customer();
+			customer.setFirstName("ABC");
+			customer.setLastName("BCD");
+			customer.setZipcode("500032");
+			
+			JAXBContext context = JAXBContext.newInstance(Customer.class);
+			StringWriter writer = new StringWriter();
+			context.createMarshaller().marshal(customer, writer);
+			System.out.println(writer.toString());
+			HttpEntity entity = new ByteArrayEntity(writer.toString().getBytes());
+			postRequest.setEntity(entity);
+			
+			HttpResponse response = postClient.execute(postRequest);
+			Header[] resHeaders = response.getAllHeaders();
+			for(Header header : resHeaders) {
+				System.out.println(header.getName() + ":" + header.getValue());
+			}
+			System.out.println(response.getStatusLine()); 
+			String resEntity = EntityUtils.toString(response.getEntity());
+			System.out.println(resEntity);
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			postClient.getConnectionManager().shutdown();
+		}
+	}
+}

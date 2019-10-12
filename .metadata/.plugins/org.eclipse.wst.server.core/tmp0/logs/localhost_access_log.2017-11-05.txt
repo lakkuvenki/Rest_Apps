@@ -1,0 +1,9 @@
+127.0.0.1 - - [05/Nov/2017:07:44:18 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [05/Nov/2017:07:44:40 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [05/Nov/2017:07:45:51 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 500 1905
+127.0.0.1 - - [05/Nov/2017:07:47:09 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [05/Nov/2017:07:47:30 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 -
+127.0.0.1 - - [05/Nov/2017:07:48:01 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 -
+127.0.0.1 - - [05/Nov/2017:12:44:47 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 500 -
+127.0.0.1 - - [05/Nov/2017:12:57:41 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 401 38
+127.0.0.1 - - [05/Nov/2017:13:00:05 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 -

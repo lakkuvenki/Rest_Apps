@@ -1,0 +1,4 @@
+127.0.0.1 - - [08/Nov/2017:06:54:28 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [08/Nov/2017:06:54:42 +0530] "POST /RestRederWriterApp/rest/resource HTTP/1.1" 200 12
+127.0.0.1 - - [08/Nov/2017:07:01:44 +0530] "POST /RestRederWriterApp/rest/resource HTTP/1.1" 200 12
+127.0.0.1 - - [08/Nov/2017:07:04:01 +0530] "POST /RestRederWriterApp/rest/resource HTTP/1.1" 200 12

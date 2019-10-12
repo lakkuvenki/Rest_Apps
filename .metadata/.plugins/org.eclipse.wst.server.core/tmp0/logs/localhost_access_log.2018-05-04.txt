@@ -1,0 +1,11 @@
+127.0.0.1 - - [04/May/2018:08:58:36 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [04/May/2018:09:00:05 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1520687927060 HTTP/1.1" 200 109
+127.0.0.1 - - [04/May/2018:09:01:12 +0530] "DELETE /CustomerServiceCrud/rest/customer/delete/1520687927060 HTTP/1.1" 200 59
+127.0.0.1 - - [04/May/2018:09:01:55 +0530] "PUT /CustomerServiceCrud/rest/customer/put/1520687824302 HTTP/1.1" 200 59
+127.0.0.1 - - [04/May/2018:09:02:40 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 60
+127.0.0.1 - - [04/May/2018:12:19:11 +0530] "GET /CustomerServiceCrud/rest/customer/get?id=1520687927060 HTTP/1.1" 500 75
+127.0.0.1 - - [04/May/2018:12:19:42 +0530] "PUT /CustomerServiceCrud/rest/customer/put/1520687824302 HTTP/1.1" 200 59
+127.0.0.1 - - [04/May/2018:12:20:30 +0530] "POST /CustomerServiceCrud/rest/customer/post HTTP/1.1" 201 60
+127.0.0.1 - - [04/May/2018:12:21:05 +0530] "DELETE /CustomerServiceCrud/rest/customer/delete/1520907841302 HTTP/1.1" 200 59
+127.0.0.1 - - [04/May/2018:16:08:32 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [04/May/2018:16:08:37 +0530] "GET /RestDataflowsApp/WEB-INF/classes/co/nit/data/flow/resource/DataFlowResource.java HTTP/1.1" 404 949

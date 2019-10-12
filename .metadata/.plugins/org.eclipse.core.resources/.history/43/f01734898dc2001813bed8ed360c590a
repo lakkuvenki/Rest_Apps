@@ -1,0 +1,9 @@
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+
+public class FinalTest extends Thread {
+	public void run() {
+		this.stop();
+	}
+}
